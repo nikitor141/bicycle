@@ -696,10 +696,6 @@ body {
   background: url("../img/icons/footer-twitter-logo.png") var(--bg-centered);
 }
 
-.footer__socials-link--facebook {
-  background: url("../img/icons/footer-facebook-logo.png") var(--bg-centered);
-}
-
 .footer__socials-link--patreon {
   background: url("../img/icons/footer-patreon-logo.png") var(--bg-centered);
 }
