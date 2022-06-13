@@ -4,6 +4,7 @@ $(function () {
          adaptiveHeight: true,
          arrows: false,
          dots: true,
+         draggable: false,
          autoplay: true
       }
    );

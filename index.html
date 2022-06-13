@@ -3,15 +3,18 @@
 
 <head>
    <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+   <link rel="manifest" href="site.webmanifest">
+   <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+   <meta name="msapplication-TileColor" content="#2b5797">
+   <meta name="theme-color" content="#ffffff">
    <link rel="stylesheet" href="css/style.css">
-
-   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
-   <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-   <script src="js/script.js"></script>
+   <script defer src="js/jquery.min.js"></script>
+   <script defer src="js/slick.min.js"></script>
+   <script defer src="js/script.js"></script>
    <title>Yebo - Bicycles</title>
 </head>
 
@@ -20,44 +23,42 @@
       <header class="header">
          <div class="header__fullscreen">
             <nav class="header__menu">
-               <button class="burger">
+               <button class="burger" aria-label="Mobile menu button.">
                   <span></span>
                </button>
                <ul class="header__list">
                   <li class="header__list-item">
-                     <a href="#" class="header__link">about us</a>
+                     <a href="#about" class="header__link">about us</a>
                   </li>
                   <li class="header__list-item">
-                     <a href="#" class="header__link">work</a>
+                     <a href="#work" class="header__link">work</a>
                   </li>
                   <li class="header__list-item">
                      <div class="logo">
-                        <a class="logo__link" href="index.html">
+                        <a class="logo__link" href="#">
                            <div class="logo__img">
-                              <img src="img/content/logo.png" alt="logo">
+                              <img src="img/content/logo.png" alt="logo" width="94" height="85">
                            </div>
                         </a>
                      </div>
                   </li>
                   <li class="header__list-item">
-                     <a href="#" class="header__link">shop</a>
+                     <a href="#shop" class="header__link">shop</a>
                   </li>
                   <li class="header__list-item">
-                     <a href="#" class="header__link">contact</a>
+                     <a href="#contact" class="header__link">contact</a>
                   </li>
                </ul>
             </nav>
          </div>
       </header>
-
       <main class="content">
-         <section class="about">
-            <!-- объединить padding в один блок -->
+         <section class="about" id="about">
             <div class="about__top">
                <div class="container">
                   <div class="about__top-body">
                      <div class="about__top-img">
-                        <img src="img/icons/chain.png" alt="chain">
+                        <img src="img/icons/chain.png" alt="chain" width="52" height="43">
                      </div>
                      <h2 class="title about__top-title">A NEW GENERATION OF VINTAGE BIKE</h2>
                      <p class="about__top-text">
@@ -78,13 +79,14 @@
                   <div class="about__main-row">
                      <div class="about__main-col about__main-col--b">
                         <div class="about__main-col-accent-img about__main-col-accent-img--company">
-                           <a class="hover-img hover-img--conpany" href="#"></a>
+                           <a class="hover-img hover-img--conpany" href="#"
+                              aria-label="Bicycle Company. Since 1926."></a>
                         </div>
                      </div>
                      <div class="about__main-col">
                         <div class="about__main-col-text-block">
                            <div class="about__main-text-block-icon">
-                              <img src="img/icons/frame.png" alt="frame">
+                              <img src="img/icons/frame.png" alt="frame" width="41" height="30">
                            </div>
                            <h2 class="title about__main-text-block-title">vintage Oliva</h2>
                            <p class="about__main-text-block-text">Lorem Ipsum is simply dummy text of the printing and
@@ -100,13 +102,14 @@
                   <div class="about__main-row about__main-row--reverse">
                      <div class="about__main-col about__main-col--b">
                         <div class="about__main-col-accent-img about__main-col-accent-img--vintage">
-                           <a class="hover-img hover-img--vintage" href="#"></a>
+                           <a class="hover-img hover-img--vintage" href="#"
+                              aria-label="Handcrafted bicycles. Vintage."></a>
                         </div>
                      </div>
                      <div class="about__main-col">
                         <div class="about__main-col-text-block">
                            <div class="about__main-text-block-icon">
-                              <img src="img/icons/pedals.png" alt="frame">
+                              <img src="img/icons/pedals.png" alt="frame" width="32" height="32">
                            </div>
                            <h2 class="title about__main-text-block-title">La Boriosa</h2>
                            <p class="about__main-text-block-text">Lorem Ipsum is simply dummy text of the printing and
@@ -122,13 +125,13 @@
                   <div class="about__main-row">
                      <div class="about__main-col">
                         <div class="about__main-col-accent-img about__main-col-accent-img--red-frame">
-                           <a class="hover-img hover-img--red-frame" href="#"></a>
+                           <a class="hover-img hover-img--red-frame" href="#" aria-label="Bicycles since 1926."></a>
                         </div>
                      </div>
                      <div class="about__main-col">
                         <div class="about__main-col-text-block">
                            <div class="about__main-text-block-icon">
-                              <img src="img/icons/fork.png" alt="frame">
+                              <img src="img/icons/fork.png" alt="frame" width="23" height="41">
                            </div>
                            <h2 class="title about__main-text-block-title">retrò Bike - M. Hulot</h2>
                            <p class="about__main-text-block-text">Lorem Ipsum is simply dummy text of the printing and
@@ -142,19 +145,19 @@
                      </div>
                      <div class="about__main-col">
                         <div class="about__main-col-accent-img about__main-col-accent-img--red-bicycle">
-                           <a class="hover-img hover-img--red-bicycle" href="#"></a>
+                           <a class="hover-img hover-img--red-bicycle" href="#" aria-label="Bicycles since 1926."></a>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
          </section>
-         <section class="slider">
+         <section class="slider" id="work">
             <div class="container">
                <div class="slider__body">
                   <div class="slider__item">
                      <div class="slider__icon">
-                        <img src="img/icons/twitter-logo.png" alt="twitter-logo">
+                        <img src="img/icons/twitter-logo.png" alt="twitter-logo" width="32" height="27">
                      </div>
                      <h3 class="title slider__title">
                         AOD New York @aod
@@ -170,7 +173,7 @@
                   </div>
                   <div class="slider__item">
                      <div class="slider__icon">
-                        <img src="img/icons/twitter-logo.png" alt="twitter-logo">
+                        <img src="img/icons/twitter-logo.png" alt="twitter-logo" width="32" height="27">
                      </div>
                      <h3 class="title slider__title">
                         AOD New York @aod
@@ -186,7 +189,7 @@
                   </div>
                   <div class="slider__item">
                      <div class="slider__icon">
-                        <img src="img/icons/twitter-logo.png" alt="twitter-logo">
+                        <img src="img/icons/twitter-logo.png" alt="twitter-logo" width="32" height="27">
                      </div>
                      <h3 class="title slider__title">
                         AOD New York @aod
@@ -203,57 +206,55 @@
                </div>
             </div>
          </section>
-         <section class="shop">
+         <section class="shop" id="shop">
             <div class="shop__gallery">
                <div class="shop__gallery-col">
                   <div class="shop__gallery-img gal-1">
-                     <a href="#" class="hover-img hover-img--shop"></a>
+                     <a href="#" class="hover-img hover-img--shop" aria-label="Shop now."></a>
                   </div>
                   <div class="shop__gallery-img gal-2">
-                     <a href="#" class="hover-img hover-img--shop"></a>
+                     <a href="#" class="hover-img hover-img--shop" aria-label="Shop now."></a>
                   </div>
                   <div class="shop__gallery-img shop__gallery-img--full-width gal-3">
-                     <a href="#" class="hover-img hover-img--shop"></a>
+                     <a href="#" class="hover-img hover-img--shop" aria-label="Shop now."></a>
                   </div>
                </div>
                <div class="shop__gallery-col">
                   <div class="shop__gallery-img shop__gallery--full-height gal-4">
-                     <a href="#" class="hover-img hover-img--shop"></a>
+                     <a href="#" class="hover-img hover-img--shop" aria-label="Shop now."></a>
                   </div>
                   <div class="shop__gallery-img shop__gallery--full-height gal-5">
-                     <a href="#" class="hover-img hover-img--shop"></a>
+                     <a href="#" class="hover-img hover-img--shop" aria-label="Shop now."></a>
                   </div>
                </div>
                <div class="shop__gallery-col">
                   <div class="shop__gallery-img shop__gallery-img--full-width gal-6">
-                     <a href="#" class="hover-img hover-img--shop"></a>
+                     <a href="#" class="hover-img hover-img--shop" aria-label="Shop now."></a>
                   </div>
                   <div class="shop__gallery-img gal-7">
-                     <a href="#" class="hover-img hover-img--shop"></a>
+                     <a href="#" class="hover-img hover-img--shop" aria-label="Shop now."></a>
                   </div>
                   <div class="shop__gallery-img gal-8">
-                     <a href="#" class="hover-img hover-img--shop"></a>
+                     <a href="#" class="hover-img hover-img--shop" aria-label="Shop now."></a>
                   </div>
                </div>
             </div>
             <div class="shop__discover">
-               <div class="container">
-                  <a href="#" class="shop__discover-btn">DISCOVER THE SHOP</a>
-               </div>
+               <a href="#" class="shop__discover-btn">DISCOVER THE SHOP</a>
             </div>
          </section>
-         <section class="subscribe">
+         <section class="subscribe" id="contact">
             <div class="container">
                <div class="subscribe__body">
                   <div class="logo subscribe__logo">
-                     <a class="logo__link" href="index.html">
+                     <a class="logo__link" href="#">
                         <div class="logo__img">
-                           <img src="img/content/logo.png" alt="logo">
+                           <img src="img/content/logo.png" alt="logo" width="94" height="85">
                         </div>
                      </a>
                   </div>
                   <div class="subscribe__title">Stay on the saddle!</div>
-                  <form action="" class="subscribe__form">
+                  <form class="subscribe__form">
                      <input class="subscribe__email" type="email" placeholder="enter your email...">
                      <button class="subscribe__submit" type="submit">GO</button>
                   </form>
@@ -261,7 +262,6 @@
             </div>
          </section>
       </main>
-
       <footer class="footer">
          <div class="container container--1100">
             <div class="footer__body">
@@ -277,13 +277,14 @@
                   </div>
                </div>
                <div class="footer__socials">
-                  <a class="footer__socials-link footer__socials-link--twitter" href="#"></a>
-                  <a class="footer__socials-link footer__socials-link--patreon" href="#"></a>
-                  <a class="footer__socials-link footer__socials-link--patreon" href="#"></a>
+                  <a class="footer__socials-link footer__socials-link--twitter" href="#" title="Twitter"></a>
+                  <a class="footer__socials-link footer__socials-link--pinterest" href="#" title="Pinterest"></a>
+                  <a class="footer__socials-link footer__socials-link--pinterest" href="#" title="Pinterest"></a>
                </div>
                <div class="footer__author">
                   Handcrafted by
-                  <img class="footer__author-logo" src="img/icons/footer-author-logo.png" alt="footer-author-logo">
+                  <img class="footer__author-logo" src="img/icons/footer-author-logo.png" alt="footer-author-logo"
+                     width="55" height="36">
                </div>
             </div>
          </div>
